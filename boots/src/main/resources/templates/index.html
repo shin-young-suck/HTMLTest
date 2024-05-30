@@ -1,0 +1,25 @@
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+   	<meta charset="UTF-8">
+   	<title>스프링 테스트</title>
+   	<link href="/public/css/main.css" rel="stylesheet">
+</head>
+<body>
+ 	<header th:insert="header_nav.html"></header>
+		<h1>2024.05.30 테스트</h1>
+		
+	<div class="a">
+		<div class="area">SHOPTEST</div>
+	</div>
+	
+	<!-- 챔피언 검색 -->
+	<div class="wrap">
+		<div class="input-group">
+			<input id="search_area" type="text" class="searchTerm" placeholder="" autocomplete="off">
+			<button id="search_champ" type="submit" class="searchButton btn-dark">Search</button>
+			<div class="searchTerm" id='autoMaker'></div>
+		</div>
+	</div>
+		
+</body>
+</html>
